@@ -1,0 +1,47 @@
+  .fc .fc-scrollgrid {
+    border: 1px solid #099999 !important;
+    overflow: hidden;
+  }
+
+    /* ヘッダー行（曜日列）のグリッド線 */
+  .fc .fc-col-header-cell {
+    border-right: 1px solid white !important;
+    background-color: #099999 !important;
+    color: white !important;
+    font-weight: normal !important;
+    padding: 8px 0 !important;
+    }
+
+      /* 日付セルを囲うグリッド線 */
+  .fc .fc-scrollgrid-section-body td {
+    border: 1px solid #099999 !important;
+  }
+
+  /* 日付セルのグリッド線 */
+  .fc .fc-daygrid-day-frame {
+    border-bottom: 1px solid #099999 !important;
+    border-right: px solid #099999 !important;
+    border: 1px solid #099999 !important;
+    /* border:3px solid transparent; */
+  }
+
+
+  /* 最終行・最終列の調整 */
+  /* 最終行の右側の線がでるので、それを消す すると他の縦線も細くなる*/
+  .fc .fc-daygrid-day-frame:last-child {
+    border-right: none !important;
+  }
+  /* 画面一番下の線の太さが変わる*/
+  :global(.fc .fc-scrollgrid-section-body tr:last-child .fc-daygrid-day-frame) {
+    border-bottom: 1px solid #099999 !important;
+  }
+
+  /* ヘッダーと日付行全体を囲う外枠（角丸付き） */
+  /* コメントアウトすると上下左右橋が角 */
+  /* border入れても無意味 */
+  .fc .fc-scrollgrid {
+    border: 1px solid #099999 !important;
+    border-radius: 1rem !important;
+    overflow: hidden;
+  }
+

@@ -1,4 +1,5 @@
-<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+<g id="rect" >
   <path
     d="
       M 40 20
@@ -17,6 +18,17 @@
     stroke="black"
     stroke-width="20"
   />
+  <polygon
+     points="180,150 160,170 160,150 "
+     fill="#000000"
+     id="polygon1"
+     transform="translate(70,-55)" />
+  <polygon
+     points="180,170 160,170 180,150 "
+     fill="#000000"
+     id="polygon2"
+     transform="translate(70,55)" />
+  </g>
   <line
      x1="70"
      y1="100"
@@ -66,14 +78,4 @@
        style="fill:#000000"
        id="rect3" />
   </g>
-  <polygon
-     points="180,150 160,170 160,150 "
-     fill="#000000"
-     id="polygon1"
-     transform="translate(70,-55)" />
-  <polygon
-     points="180,170 160,170 180,150 "
-     fill="#000000"
-     id="polygon2"
-     transform="translate(70,55)" />
 </svg>
